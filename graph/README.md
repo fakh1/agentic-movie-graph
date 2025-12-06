@@ -30,7 +30,7 @@ Le repo contient :
 - ✅ Scripts Cypher pour créer le graphe :
   - `graph/schema.cypher`
   - `graph/seed_data.cypher`
-- ✅ Schéma documenté + diagramme Mermaid (section [3.2](#32-diagramme-de-schéma))
+- ✅ Schéma documenté + diagramme Mermaid
 
 ### 3. Agentic Workflow
 
@@ -55,7 +55,7 @@ Le repo contient :
   - `backend/routers/ask.py` → `/api/ask`
   - `backend/routers/graph_info.py` → `/api/graph/info`
   - `backend/models/schemas.py`
-- ✅ Exemples cURL / Postman (section [7](#7-exemples-de-requêtes-api))
+- ✅ Exemples cURL / Postman 
 
 ### 6. Frontend / CLI (optional)
 
@@ -68,17 +68,6 @@ Le repo contient :
 - ✅ Ce README (setup + usage)
 - ✅ `graph/README.md` → graph design & Cypher
 - ✅ `docs/architecture.md` → architecture, workflow, tools, pipeline & tests
-- ✅ `docs/demo_script.md` → script détaillé pour la vidéo de démo
-
-### 8. Demo Video (à faire à partir du code)
-
-Le code + `docs/demo_script.md` permettent de tourner une vidéo 5–10 min montrant :
-
-- les objectifs du système
-- le fonctionnement de l’agent
-- les requêtes Neo4j / tools en action
-- le pipeline GraphRAG end-to-end
-- l’architecture globale
 
 ---
 
@@ -137,8 +126,6 @@ agentic-movie-graph/
 │
 ├── docs/
 │   ├── architecture.md         # Detailed architecture & reasoning
-│   ├── diagrams/               # Place for exported PNG/SVG
-│   └── demo_script.md          # Script for demo video
 │
 ├── README.md                   # (ce fichier)
 ├── requirements.txt
