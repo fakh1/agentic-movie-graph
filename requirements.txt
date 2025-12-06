@@ -1,0 +1,10 @@
+langgraph
+langchain-core
+langchain-openai
+langchain-community
+neo4j
+chromadb
+fastapi
+uvicorn[standard]
+python-dotenv
+requests

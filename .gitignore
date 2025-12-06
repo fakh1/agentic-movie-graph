@@ -1,0 +1,22 @@
+# Python / env
+venv/
+__pycache__/
+*.pyc
+
+# Env secrets
+.env
+.env.*
+
+# Data / indexes locaux
+data/
+*.db
+
+# Neo4j / OS
+*.log
+*.db-*
+*.pid
+.DS_Store
+Thumbs.db
+
+# Fichiers perso (si tu veux les garder privés)
+docs/demo_script.md
